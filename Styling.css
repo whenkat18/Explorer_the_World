@@ -1,0 +1,271 @@
+*{
+    padding: 0px;
+}
+@media screen (min-width:600px){
+
+}
+.sticky{
+   position: sticky;
+   top: 0;
+   background-color: #ffffff;
+}
+.sticky:hover{
+   background-color: lightgrey;
+}
+ nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 3%; 
+ }
+ 
+.exp{
+    font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size:medium;
+}
+ .hd ul li{
+    list-style-type: none;
+    margin-right: 70px; 
+ }
+ .hd ul li a{
+    text-decoration: none;
+    color: black ;
+    justify-content: space-evenly; 
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+ }
+ .hd ul li a:hover{
+   color:blue;
+ }
+ .hd ul{
+    display:flex;
+    flex-direction: row; 
+ }
+ .contain{
+    display: flex;
+ }
+ #img{
+    padding-top:50px;
+    margin: 20px;
+ }
+#para{
+    padding-top: 100px;
+    margin-left: 40px;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 800;
+    font-style:normal;
+    font: size 500px;;
+    letter-spacing:20px;
+    text-transform: uppercase;
+  
+}
+ #link{
+   font-size: small;
+   letter-spacing: 0px;
+   text-decoration: none;
+   text-align: left;
+   color:lightslategray;
+   padding-bottom: 40px;
+ }
+ #par{
+    letter-spacing: 0em;
+    text-transform: capitalize;
+    font-size: larger;
+    font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+ }
+.con1{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+
+}
+.con1 div{
+   width: 400px;
+   margin: 20px;
+}
+
+#all{
+   text-align: justify;
+   letter-spacing: 4px;
+   text-transform: uppercase;
+
+}
+#lin{
+   text-decoration: none;
+   font-size:small;
+   color: lightslategray;
+}
+
+#caps{
+   text-transform: uppercase;
+   padding-bottom: 50px;
+    
+}
+
+.post{
+   padding-top: 50px;
+   text-transform :uppercase;
+   font-size: medium;
+   color: lightslategrey;
+   margin: 18px;
+
+}
+   
+.con2{
+   display: grid;
+   grid-template-columns: repeat(4,25%);
+   justify-content: space-around;
+}
+   
+.con2 div{
+   width 300px;
+   margin: 15px;
+   padding-bottom: 40px;
+} 
+ .btn{
+   display: flex;
+   justify-content: center;
+   padding-bottom: 100px;
+
+ }
+
+ span{
+   display: grid;
+   padding: 20px;
+   font-family: "Alegreya Sans SC", sans-serif;
+   font-weight: 500;
+   font-style: normal;
+ }
+
+ span:hover{
+   background-color: black;
+   color: #ffffff;
+ }
+
+ .con3{
+   display: grid;  
+   grid-template-columns: auto auto;
+   margin-left: 15px;
+ }
+
+ .ft{
+   background-color: black;
+   color: lightgrey;
+   margin: 0px;
+   padding: 0px;
+ }
+ .ft:hover{
+   background-color:lightslategray;
+ }
+ .ft #point{
+   display: flex;
+   flex-direction: row;
+ }
+ .footer{
+   background-color: black;
+   display: flex;
+   flex-direction: row;
+   margin-top: 75px;
+   color: #ffffff;
+ }
+ .title{
+   color: #ffffff;
+   margin-left: 30px;
+   margin-top: 75px;
+   text-transform: uppercase;
+   font-family: "Roboto", sans-serif;
+   font-weight: 100;
+   font-style: normal;
+   font-size:medium;
+   
+ }
+ .foot{
+   color: lightgrey;
+   padding-left: 25px;
+   padding-top: 88px;
+   text-transform: uppercase;
+   font-size: small;
+   font-family: "Roboto", sans-serif;
+   font-weight: 300;
+   font-style: normal;
+   padding-bottom: 50px;
+ }
+#news{
+   text-transform: uppercase;
+   color: lightgrey;
+   margin-left: 30px;
+}
+.feedback{
+   text-transform: uppercase;
+   color: lightgrey;
+   margin-left: 30px;
+}
+.graphics #point{
+   display: grid;
+   grid-template-columns: auto auto auto auto;
+   text-transform: uppercase;
+   font-size: small;
+   margin: 30px;
+   font-family: "Alegreya Sans SC", sans-serif;
+   font-weight: 700;
+   font-style: normal;
+}
+.category{
+   padding-top: 30px;
+}
+.feedback{
+   padding-top: 5px;
+}
+ .email{
+   padding-bottom: 80px;
+ }
+ #val{
+   padding: 10px;
+   margin-left: 25px;
+}
+ #send{
+   padding: 10px;
+   background-color: black;
+   color: #ffffff;
+   border: 2px solid;
+   border-color: black;
+   font-family: "Alegreya Sans SC", sans-serif;
+   font-weight: 600;
+   font-style: normal;
+ }
+.bottom div{
+ margin: 25px;
+ display: flex;
+ flex-direction: column;
+}
+
+.bottom{
+   padding-bottom: 150px;
+   display: flex;
+   flex-direction: row;
+}
+.bottom .follow{
+padding-left: 220px;
+}
+.bottom .template{
+   padding-left: 220px;
+}
+#fb{
+   text-transform: uppercase;
+   font-size: small;
+   margin: 30px;
+   font-family: "Alegreya Sans SC", sans-serif;
+   font-weight: 700;
+   font-style: normal;
+}
+#in{
+   padding-left: 25px;
+   text-transform: uppercase;
+   color: lightgrey;
+}
+ 
